@@ -19,6 +19,11 @@
     justify-content: space-between;
 }
 
+.logo{
+    img{
+        width: 90px;
+    }
+}
 .header-menu{
     width: 100%;
     display: flex;
@@ -27,7 +32,15 @@
     height: 100%;
     li{
         display: inline-block;
+        padding: 50px 0;
 
+        &.active{
+            border-bottom: 4px solid $brand_primary;
+
+            a{
+                color: $brand_primary;
+            }
+        }
         a{
             text-decoration: none;
             color: $brand_secondary;
@@ -44,4 +57,11 @@
         border: none;
         border-bottom: 2px solid $brand_primary;
     }
+}
+
+.jumbotron{
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/jumbotron.jpg);
 }

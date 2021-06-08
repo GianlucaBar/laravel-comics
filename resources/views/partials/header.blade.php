@@ -24,7 +24,7 @@
                     <a href="#">CHARACTERS</a>
                 </li>
 
-                <li>
+                <li class="active">
                     <a href="#">COMICS</a>
                 </li>
 
@@ -66,7 +66,10 @@
                 <input type="text" placeholder="Search">
             </div>
         </nav>
+
     </div>
+
+    <div class="jumbotron"></div>
 
 
 </header>
