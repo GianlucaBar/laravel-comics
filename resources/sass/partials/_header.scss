@@ -1,0 +1,47 @@
+.top-menu{
+    background-color: $brand_primary;
+    text-align: right;
+    li{
+        display: inline-block;
+        margin-left: 50px;
+        padding: 5px 0;
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+.top-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    height: 100%;
+    li{
+        display: inline-block;
+
+        a{
+            text-decoration: none;
+            color: $brand_secondary;
+            font-weight: bold;
+            i{
+                color: $brand_primary;
+            }
+        }
+    }
+}
+
+.search-bar{
+    input{
+        border: none;
+        border-bottom: 2px solid $brand_primary;
+    }
+}
