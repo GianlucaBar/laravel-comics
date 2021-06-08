@@ -12,6 +12,10 @@ ul {
   list-style-type: none;
 }
 
+.text-centered {
+  text-align: center;
+}
+
 .container-standard {
   width: 80%;
   margin: auto;
@@ -85,7 +89,7 @@ a {
 }
 
 .jumbotron {
-  height: 800px;
+  height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(../img/jumbotron.jpg);
@@ -177,4 +181,56 @@ a {
 .social-menu li h3 {
   color: #0282F9;
   font-size: 30px;
+}
+
+.copyright {
+  color: #90908E;
+}
+.copyright a {
+  color: #0282F9;
+}
+
+main {
+  background-color: #1C1C1C;
+}
+
+.main-title {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #0282F9;
+  position: relative;
+  top: -35px;
+}
+.main-title h2 {
+  color: white;
+  font-size: 35px;
+}
+
+.comics-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.comic {
+  width: calc(100% / 6);
+  padding: 10px;
+}
+.comic .cover {
+  height: 200px;
+  overflow: hidden;
+}
+.comic h4 {
+  color: white;
+  text-transform: uppercase;
+}
+
+.load-more-btn {
+  background-color: #0282F9;
+  padding: 10px 50px;
+  text-align: center;
+  border: none;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
 }

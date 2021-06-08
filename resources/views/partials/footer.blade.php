@@ -103,7 +103,7 @@
                     </div>
                 </div>
 
-                <div class="copiright">
+                <div class="copyright">
                     <span>All Site Content TM and c 2020 DC Entertainment, unless otherwhise <a href="#">noted here</a>.   All rights reserved.</span>
                     <div><a href="#">Cookies Settings</a></div>
                 </div>
