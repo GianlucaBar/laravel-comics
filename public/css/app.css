@@ -17,6 +17,18 @@ ul {
   margin: auto;
 }
 
+a {
+  text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container-centered {
+  display: flex;
+}
+
 .top-menu {
   background-color: #0282F9;
   text-align: right;
@@ -77,4 +89,92 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(../img/jumbotron.jpg);
+}
+
+.blue-section {
+  background-color: #0282F9;
+}
+
+.blue-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+}
+.blue-menu li {
+  width: calc(100% / 5);
+  display: flex;
+  align-items: center;
+}
+.blue-menu li span {
+  color: white;
+  padding-left: 30px;
+}
+
+.list-icon {
+  height: 60px;
+}
+
+.list-icon.power-visa {
+  height: 40px;
+}
+
+.bg-section {
+  background-image: url(../img/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 500px;
+}
+
+.footer-menu-container {
+  width: 50%;
+  padding: 50px 0;
+}
+
+.big-logo {
+  width: 50%;
+}
+.big-logo img {
+  position: relative;
+  top: -30px;
+}
+
+.footer-block {
+  padding-right: 40px;
+}
+
+.footer-menu {
+  margin-bottom: 20px;
+}
+.footer-menu h3 {
+  font-size: 30px;
+  color: white;
+  padding: 20px 0;
+}
+.footer-menu a {
+  color: #90908E;
+}
+
+.social-section .container-standard {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-section {
+  background-color: #303030;
+  padding: 30px 0;
+}
+.social-section button {
+  background-color: #303030;
+  color: white;
+  border: 1px solid #0282F9;
+  padding: 0 10px;
+}
+
+.social-menu li {
+  padding-left: 15px;
+}
+.social-menu li h3 {
+  color: #0282F9;
+  font-size: 30px;
 }
