@@ -52,6 +52,15 @@
     }
 }
 
+.header-menu{
+    li:hover{
+        border-bottom: 4px solid $brand_primary;
+    }
+
+    a:hover{
+        color: $brand-primary;
+    }
+}
 .search-bar{
     input{
         border: none;
