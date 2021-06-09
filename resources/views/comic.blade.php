@@ -1,5 +1,8 @@
 @extends('layouts.app')
 
+@section('title')
+    Product page
+@endsection
 @section('main_content')
 <main>
     <section class="product-cover-section">
@@ -113,17 +116,17 @@
             </div>
 
             <div class="buy-block">
-                <span>DIGITAL COMICS</span>
+                <span>SHOP DC</span>
                 <div class="shop"></div>
             </div>
 
             <div class="buy-block">
-                <span>DIGITAL COMICS</span>
+                <span>COMIC SHOP LOCATOR</span>
                 <div class="shop-locator"></div>
             </div>
 
             <div class="buy-block">
-                <span>DIGITAL COMICS</span>
+                <span>SUBSCRIPTIONS</span>
                 <div class="subscriptions"></div>
             </div>
         </div>

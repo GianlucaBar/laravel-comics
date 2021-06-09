@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('title')
+    Home
+@endsection
+
 @section('main_content')
 <main class="bg-dark">
     <div class="container-standard">
