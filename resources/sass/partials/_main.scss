@@ -195,3 +195,37 @@
 .buy-section{
     background-color: #F6F6F6;
 }
+
+.buy-block{
+    width: calc(100% / 4);
+    color: #A0A9AB;
+    font-weight: bold;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-left: 1px solid #E4E4E4;
+}
+
+.buy-block:last-child{
+    border-right: 1px solid #E4E4E4;
+}
+
+.digital-comics, .shop, .shop-locator, .subscriptions{
+    background: url(../img/cta-icons.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 37px;
+    width: 37px;
+}
+
+.shop{
+    background-position-x: -111px;
+}
+
+.shop-locator{
+    background-position-x: -74px;
+}
+
+.subscriptions{
+    background-position-x: -37px;
+}

@@ -108,7 +108,23 @@
     <section class="buy-section">
         <div class="container-standard flex-container">
             <div class="buy-block">
-                
+                <span>DIGITAL COMICS</span>
+                <div class="digital-comics"></div>
+            </div>
+
+            <div class="buy-block">
+                <span>DIGITAL COMICS</span>
+                <div class="shop"></div>
+            </div>
+
+            <div class="buy-block">
+                <span>DIGITAL COMICS</span>
+                <div class="shop-locator"></div>
+            </div>
+
+            <div class="buy-block">
+                <span>DIGITAL COMICS</span>
+                <div class="subscriptions"></div>
             </div>
         </div>
     </section>
