@@ -15,6 +15,15 @@ ul{
 .text-centered{
     text-align: center;
 }
+
+.text-right{
+    text-align: right;
+}
+
+.blue-text{
+    color: $brand-primary;
+}
+
 .container-standard{
     width: 80%;
     margin: auto;
